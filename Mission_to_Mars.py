@@ -22,7 +22,7 @@ browser = Browser('chrome', **executable_path, headless=False)
 
 
 # Visit the mars nasa news site
-url = 'https://redplanetscience.com'
+url = 'https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars'
 browser.visit(url)
 # Optional delay for loading the page
 browser.is_element_present_by_css('div.list_text', wait_time=1)
